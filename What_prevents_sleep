@@ -1,5 +1,4 @@
 ##### I tweaked the original script so you can run it directly without summoning it from the terminal and it displays results as a Zenity Popup
-##### Create a desktop starter and place it in your menu or wherever you like to start it from
 ##### Place the icon png into /usr/share/icons/gnome/48x48/status
 
 
