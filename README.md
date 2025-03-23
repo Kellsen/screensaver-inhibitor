@@ -1,6 +1,7 @@
 Some tweaks I made to the original script so it can be evoked outside the terminal and showing the results as a Zenity Popup.
 Thanks to AlexisWilke for the original script.
 
+![screenshot](https://github.com/Kellsen/screensaver-inhibitor/blob/master/Screenshot.png)
 
 
 
