@@ -43,7 +43,6 @@ foreach ($l as $a) {
 file_put_contents('/tmp/zenity_output.log', $output);
 
 if (!empty($output)) {
-    // Escape the text as appropriate
     $output = addslashes(trim($output));
     
     exec("zenity --warning --title='Process Preventing Sleep' --text=\"$output\"");
