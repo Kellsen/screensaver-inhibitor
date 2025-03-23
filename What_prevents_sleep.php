@@ -25,13 +25,9 @@ foreach ($l as $a) {
             $names = explode("\n", $info);
             $n = trim($names[1]);
 
-            // Check if the application name is valid
             if (substr($n, 0, 8) == 'string "'){
                 $name = substr($n, 8, strlen($n) - 9);
-                
-                // Fetch the PID using pgrep
                 $pid = trim(`pgrep -f "$name"`);
-
                 $output .= "Inhibitor: $inhibitor\nApp: $name\nPID: $pid\n\n";
             }
         }
