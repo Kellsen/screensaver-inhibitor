@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=What prevents Sleep
+Exec=php /opt/What_prevents_Sleep.php
+Comment=Script to check if there is a process running that prevents the Computer from going to sleep
+Terminal=false
+PrefersNonDefaultGPU=false
+Icon=/usr/share/icons/nosleep.png
+Type=Application
